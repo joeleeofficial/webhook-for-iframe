@@ -1,15 +1,12 @@
-/*   
-  Project by Zua 
-  https://github.com/thatziv/webhook 
-*/
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-* {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:wght@100&display=swap');
+*{    font-family: 'Indie Flower', cursive;
 
+  font-family: 'Roboto', sans-serif;}
 body {
-    background: #252424;
+  color : white;
+    background: black;
+  font-family: 'Indie Flower', cursive;
 }
 
 #container {
@@ -17,15 +14,19 @@ body {
     margin: auto;
     margin-right: 25px;
     margin-left: 25px;
-    box-shadow: 7px 7px #0000006c;
-    background: rgb(85, 85, 85); 
+    box-shadow: 7px 7px #000000;
+    background: #000000;
+    border-radius: 25px;
     padding: 25px;
+   color: white;
 }
 
 #header {
     text-align: center;
     margin-top: 47px;
     margin: auto;
+    font-color: #00000;
+
     font-size: 39px
 }
 
@@ -36,6 +37,9 @@ body {
     width: 100%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.37); 
+    font-color: #00000;
+      border-radius: 25px;
+
     color: white;
     text-align: center;
 }
@@ -46,6 +50,7 @@ body {
 
 p {
     font-size: 27px;
+  font-color: #00000;
 }
 
 a, a:visited {
@@ -58,6 +63,8 @@ a, a:visited {
     width: 75%;
     padding: 20px;
     border: 2px solid #000000c9;
+    font-color: #00000;
+     border-radius: 30px;
 }
 
 #btn {
@@ -67,6 +74,9 @@ a, a:visited {
     padding: 17px;
     background-color: #1d6e6e;
     border: 2px solid #000000c9;
+    font-color: #00000;
+      border-radius: 30px;
+
 }
 
 #btn:hover { 
