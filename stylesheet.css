@@ -6,11 +6,7 @@
 body {
   color : white;
   font-family: 'Indie Flower', cursive;
-   --accent-color: orangered;
-  --background-color: white;
-  --text-color: black;
-  --button-text-color: var(--background-color);
-  --transition-delay: 1s;
+   background-color: black;
 }
 
   transition: var(--transition-delay);
